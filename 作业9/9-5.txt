@@ -1,0 +1,2 @@
+data[(data.weekdays == 'Thu') & (data.prices > 2000000)]
+    data.query('weekdays == "Thu" and prices > 2000000')
